@@ -1,0 +1,16 @@
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.social-links img {
+  height: 20px;
+  width: 20px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=SocialLinks.css.map */

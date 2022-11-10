@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html{
+  font-family: 'Poppins', sans-serif !important;
+}
+h1{
+  font-size: clamp(1.2rem, 5vw, 2.5rem) !important;
+  font-weight: 700 !important;
+}
+h2{
+  font-size: clamp(1rem, 5vw, 2rem) !important;
+  font-weight: 600 !important;
+}
+h5{
+  font-size: clamp(16px, 2vw, 1rem) !important;
+  font-weight: 400 !important;
+}
+h6{
+  font-size: clamp(14px, 1.5vw, 1rem) !important;
+  font-weight: 600 !important;
+}
+p{
+  font-size: clamp(14px, 2vw, 0.8rem) !important;
+}

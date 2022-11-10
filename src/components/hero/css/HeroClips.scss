@@ -1,0 +1,38 @@
+.videos{
+    .hero-video{
+        height: calc(30px + 7vh);
+        width: calc(50px + 4vw);
+        position: relative;
+        margin: 5px 0;
+        cursor: pointer;
+        &:hover{
+            video{
+                z-index: 33;
+            }
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            position: relative;
+        }
+        video{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            object-fit: cover;
+            z-index: -33;
+        }
+        .play-icon{
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

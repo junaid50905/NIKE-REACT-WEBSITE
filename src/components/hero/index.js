@@ -1,0 +1,7 @@
+export {default as Hero} from './Hero'
+export {default as PopularSales} from '../popular sales/PopularSales'
+export {default as Highlight} from '../highlight/Highlight'
+export {default as TopRatedSales} from '../top rated sales/TopRatedSales'
+export {default as Featured} from '../featured/Featured'
+export {default as TopStories} from '../top stories/TopStories'
+export {default as Footer} from '../footer/Footer'

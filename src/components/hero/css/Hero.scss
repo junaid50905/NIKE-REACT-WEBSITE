@@ -1,0 +1,71 @@
+#hero-section{
+    position: relative;
+    z-index: 33;
+    .hero-inside{
+        .hero-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40vh;
+            flex-direction: column;
+            h1{
+                color: white;
+                line-height: 10px;
+            }
+            button{
+                margin-top: 20px;
+                border: none;
+                padding: 5px 10px;
+                border-radius: 25px;
+                box-shadow: -1px 3px 5px 3px rgba(255, 255, 255, 0.47);
+                transition: 0.2s ease-in-out;
+                &:hover{
+                    box-shadow: 2px 1px 17px 3px rgba(0,0,0,0.47);
+                }
+            }
+        }
+        .hero-videos-image-social{
+            .image{
+                display: flex;
+                justify-content: center;
+                height: 40vh;
+                align-items: center;
+                img{
+                    width: 70%;
+                    height: 100%;
+                    object-fit: contain;
+                    transform: rotate(-30deg);
+                    transition: 0.5s ease-in-out;
+                    &:hover{
+                        transform: rotate(0deg)
+                    }
+                }
+            }            
+        }
+    }
+    .shape{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,171,1) 0%, rgba(0,212,255,1) 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 68%);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 80vh;
+        width: 100%;
+        z-index: -33;
+    }
+}
+
+@media(max-width: 576px){
+    .hero-content{
+        height: 30vh !important;
+    }
+    .image{
+        img{
+            width: 100% !important;
+        }
+    }
+    .shape{
+        height: 65vh !important;
+    }
+}

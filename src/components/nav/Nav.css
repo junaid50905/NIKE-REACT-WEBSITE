@@ -1,0 +1,53 @@
+nav {
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo {
+  height: 40px;
+  width: 120px;
+}
+
+nav .logo img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+nav .nav-items ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+nav .nav-items ul li {
+  cursor: pointer;
+}
+
+nav .nav-items ul li .nav-icons {
+  color: white;
+}
+
+nav .nav-items ul li.cart {
+  position: relative;
+}
+
+nav .nav-items ul li.cart span {
+  background-color: white;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 20px;
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
+/*# sourceMappingURL=Nav.css.map */

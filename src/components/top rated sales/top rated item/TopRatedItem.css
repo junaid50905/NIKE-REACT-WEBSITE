@@ -1,0 +1,47 @@
+.top-rated-item {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin: 10px 0;
+  color: white;
+}
+
+.top-rated-item .pricing-rating .pricing {
+  margin-right: 10px;
+}
+
+.top-rated-item .cartBtn-buyBtn {
+  padding: 10px 0;
+}
+
+.top-rated-item .cartBtn-buyBtn .cart-icon {
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+  padding: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.top-rated-item .cartBtn-buyBtn button {
+  background-color: white;
+  border: none;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.top-rated-item .image {
+  height: 120px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.top-rated-item .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=TopRatedItem.css.map */

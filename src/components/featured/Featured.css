@@ -1,0 +1,30 @@
+#featured-section {
+  padding: 5vh 0;
+}
+
+#featured-section .sneaker-image {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+#featured-section .sneaker-image img {
+  height: 80%;
+  width: 80%;
+  display: -webkit-box;
+  margin-left: auto;
+}
+
+#featured-section .sneaker-content h2 {
+  color: #0c63e5;
+}
+
+#featured-section .sneaker-content a {
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: black 5px 8px 15px -4px;
+          box-shadow: black 5px 8px 15px -4px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Featured.css.map */

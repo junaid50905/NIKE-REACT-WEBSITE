@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,KAAK;CACjB",
+    "sources": [
+        "TopStories.scss"
+    ],
+    "names": [],
+    "file": "TopStories.css"
+}

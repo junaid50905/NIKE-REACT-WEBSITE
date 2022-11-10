@@ -1,0 +1,50 @@
+.story .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px 5px 0 0;
+}
+
+.story .content {
+  padding: 0 10px;
+}
+
+.story .content .like-time-by {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.story .content .like-time-by span, .story .content .like-time-by a {
+  font-size: 12px;
+}
+
+.story .content .like-time-by span .heart-icon {
+  color: red;
+}
+
+.story .content .title-text {
+  margin: 10px 0;
+}
+
+.story .content .title-text a {
+  background-color: black;
+  -webkit-box-shadow: black 5px 8px 15px -4px;
+          box-shadow: black 5px 8px 15px -4px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+/*# sourceMappingURL=Story.css.map */

@@ -1,0 +1,25 @@
+#featured-section{
+    padding: 5vh 0;
+    .sneaker-image{
+        transform: rotate(30deg);
+        img{
+            height: 80%;
+            width: 80%;
+            display: -webkit-box;
+            margin-left: auto;
+        }
+    }
+    .sneaker-content{
+        h2{
+            color: #0c63e5;
+        }
+        a{
+            background-color: black;
+            color: white;
+            box-shadow: black 5px 8px 15px -4px;
+            padding: 5px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+}

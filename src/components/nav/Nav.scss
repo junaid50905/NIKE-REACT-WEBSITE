@@ -1,0 +1,40 @@
+nav{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        height: 40px;
+        width: 120px;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    .nav-items{
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            li{cursor: pointer;}
+            li{
+                .nav-icons{
+                    color: white;
+                }
+            }
+            li.cart{
+                position: relative;
+                span{
+                    background-color: white;
+                    font-size: 10px;
+                    padding: 1px 6px;
+                    border-radius: 20px;
+                    display: block;
+                    position: absolute;
+                    top: -5px;
+                    right: -10px;
+                }
+            }
+        }
+    }
+}

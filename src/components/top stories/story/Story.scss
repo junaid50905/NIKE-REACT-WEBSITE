@@ -1,0 +1,41 @@
+.story{
+    .image{
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            border-radius: 5px 5px 0 0;
+        }
+    }
+    .content{
+        padding: 0 10px;
+        .like-time-by{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        span,a{
+            font-size: 12px;
+        }
+        span{
+            .heart-icon{
+                color: red;
+            }
+        }
+    }
+    .title-text{
+        margin: 10px 0;
+        a{
+            background-color: black;
+            box-shadow: black 5px 8px 15px -4px;
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            width: 100%;
+            display: block;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+    }
+}

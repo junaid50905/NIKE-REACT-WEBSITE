@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAA;EACpB,OAAO,EAAE,KAAK;CACjB",
+    "sources": [
+        "TopRatedSales.scss"
+    ],
+    "names": [],
+    "file": "TopRatedSales.css"
+}

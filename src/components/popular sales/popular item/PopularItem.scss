@@ -1,0 +1,55 @@
+.popular-item{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    .content{
+        h5,p{color: white;}
+        .pricing-rating{
+            display: flex;
+            color: white;
+            .rating{
+                margin-left: 10px;
+                .rating-icon{
+                    margin-top: -5px;
+                }
+            }
+        }
+        .cartBtn-buyBtn{
+            .cart-icon{
+                background-color: white;
+                height: 25px;
+                width: 25px;
+                padding: 3px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button{
+                background-color: white;
+                border-radius: 5px;
+                border: none;
+                padding: 3px;
+                margin-left: 20px;
+            }
+            display: flex;
+            align-items: center;
+        }
+    }
+    .image{
+        height: 120px;
+        width: 170px;
+        transform: rotate(-30deg);
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            padding: 5px;
+            position: absolute;
+            bottom: -10%;
+            left: -10%;
+            scale: 1.3;
+        }
+    }
+}

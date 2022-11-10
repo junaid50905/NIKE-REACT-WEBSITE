@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAA;EAClB,OAAO,EAAE,YAAY;CACxB",
+    "sources": [
+        "PopularSales.scss"
+    ],
+    "names": [],
+    "file": "PopularSales.css"
+}

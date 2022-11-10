@@ -1,0 +1,41 @@
+.videos .hero-video {
+  height: calc(30px + 7vh);
+  width: calc(50px + 4vw);
+  position: relative;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.videos .hero-video:hover video {
+  z-index: 33;
+}
+
+.videos .hero-video img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.videos .hero-video video {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -33;
+}
+
+.videos .hero-video .play-icon {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=HeroClips.css.map */
