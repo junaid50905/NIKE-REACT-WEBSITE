@@ -2,6 +2,7 @@ nav{
     padding: 20px 30px;
     display: flex;
     justify-content: space-between;
+    transition: 0.5s ease-in-out;
     .logo{
         height: 40px;
         width: 120px;
@@ -19,7 +20,7 @@ nav{
             li{cursor: pointer;}
             li{
                 .nav-icons{
-                    color: white;
+                    color: rgb(5, 5, 5);
                 }
             }
             li.cart{
@@ -37,4 +38,12 @@ nav{
             }
         }
     }
+}
+.onscroll{
+    background: rgba(116, 116, 116, 0.55);
+    box-shadow: 0 4px 30px rgba(121, 121, 121, 0.7);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    width: 100%;
+    z-index: 44444;
 }
